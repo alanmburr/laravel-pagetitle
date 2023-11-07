@@ -1,6 +1,6 @@
 <?php
 
-namespace Rephlux\PageTitle\Test;
+namespace AlanMBurr\PageTitle\Test;
 
 use PHPUnit\Framework\TestCase;
 use Rephlux\PageTitle\PageTitle;

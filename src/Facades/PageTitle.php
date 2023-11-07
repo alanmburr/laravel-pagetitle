@@ -1,8 +1,8 @@
 <?php
 
-namespace Rephlux\PageTitle\Facades;
+namespace AlanMBurr\PageTitle\Facades;
 
-use Illuminate\Support\Facades\Facade;
+use \Illuminate\Support\Facades\Facade;
 
 /**
  * Class PageTitle.

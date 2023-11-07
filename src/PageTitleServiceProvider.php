@@ -1,6 +1,6 @@
 <?php
 
-namespace Rephlux\PageTitle;
+namespace AlanMBurr\PageTitle;
 
 use Illuminate\Support\ServiceProvider;
 

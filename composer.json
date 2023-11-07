@@ -1,29 +1,33 @@
 {
-    "name": "rephlux/pagetitle",
+    "name": "alanmburr/pagetitle",
     "description": "Manage page title in Laravel views",
     "keywords": [
         "laravel",
         "title",
         "blade"
     ],
-    "homepage": "https://github.com/rephluX/laravel-pagetitle",
+    "homepage": "https://github.com/alanmburr/laravel-pagetitle",
     "license": "MIT",
     "authors": [
         {
             "name": "Chris van Daele",
             "email": "engine_no9@gmx.net"
+        },
+        {
+            "name": "Alan M. Burr",
+            "email": "info@alanburr.us.eu.org"
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9"
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^9.21|^10.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~8.0"
+        "phpunit/phpunit": "^10.1"
     },
     "autoload": {
         "psr-4": {
-            "Rephlux\\PageTitle\\": "src"
+            "AlanMBurr\\PageTitle\\": "src"
         },
         "files": [
             "src/functions.php"
@@ -31,16 +35,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Rephlux\\PageTitle\\Test\\": "test"
+            "AlanMBurr\\PageTitle\\Test\\": "test"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rephlux\\PageTitle\\PageTitleServiceProvider"
+                "AlanMBurr\\PageTitle\\PageTitleServiceProvider"
             ],
             "aliases": {
-                "PageTitle": "Rephlux\\PageTitle\\Facades\\PageTitle"
+                "PageTitle": "AlanMBurr\\PageTitle\\Facades\\PageTitle"
             }
         }
     }
